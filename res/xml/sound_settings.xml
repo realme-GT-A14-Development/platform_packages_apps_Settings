@@ -118,6 +118,16 @@
         android:order="-103"
         settings:controller="com.android.settings.sound.AdaptivePlaybackParentPreferenceController" />
 
+    <!-- Phone ringtone for Slot2 -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="ringtone2"
+        android:title="@string/ringtone2_title"
+        android:dialogTitle="@string/ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="ringtone"
+        settings:allowDividerAbove="false"
+        android:order="-119"/>
+
     <!-- Live Caption -110 and Now Playing -105-->
 
     <!-- Spatial audio -->
