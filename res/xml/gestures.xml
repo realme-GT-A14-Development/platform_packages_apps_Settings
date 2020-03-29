@@ -129,4 +129,5 @@
             android:targetPackage="com.android.touch.gestures"
             android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
     </Preference>
+    
 </PreferenceScreen>
